@@ -19,7 +19,7 @@ export default async function PostDetailPage({ params }) {
       <div className="mx-auto max-w-3xl rounded-xl bg-white p-6 shadow">
         <h1 className="text-3xl font-bold text-blue-700">{post.title}</h1>
 
-        <div className="mt-4 space-y-2 text-gray-700">
+        <div className="mt-4 space-y-2 text-gray-700 ">
           <p>
             <strong>Loại:</strong>{" "}
             {post.type === "lost" ? "Đồ thất lạc" : "Đồ nhặt được"}

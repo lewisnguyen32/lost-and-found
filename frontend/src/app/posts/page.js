@@ -18,7 +18,7 @@ export default async function PostsPage() {
       <div className="mx-auto max-w-5xl">
         <h1 className="text-3xl font-bold text-blue-700">Danh sách bài đăng</h1>
 
-        <div className="mt-8 grid gap-4">
+        <div className="mt-8 grid gap-4 text-black placeholder:text-gray-500">
           {posts.length === 0 ? (
             <p>Chưa có bài đăng nào.</p>
           ) : (
