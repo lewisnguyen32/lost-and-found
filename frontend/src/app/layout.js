@@ -26,12 +26,14 @@ export default function RootLayout({ children }) {
           <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-1">
             <a
               href="/"
-              className="flex items-center gap-3 text-2xl font-bold tracking-tight text-blue-700"
+              className="flex items-center gap-3 text-2xl font-bold tracking-tight text-blue-700 leading-none"
             >
               <img
                 src="/uit-logo.png"
                 alt="UIT Logo"
-                className="h-16 w-16 object-contain"
+                width={48}
+                height={48}
+                className="block h-12 w-12 shrink-0 object-contain"
               />
               <span>Lost & Found UIT</span>
             </a>
