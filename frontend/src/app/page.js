@@ -8,7 +8,7 @@ export default function HomePage() {
           </span>
 
           <h1 className="mt-5 text-4xl font-bold leading-tight text-blue-700">
-            Giúp sinh viên đăng tin mất đồ và nhặt được đồ trong trường
+            Giúp sinh viên UIT đăng tin mất đồ và nhặt được đồ trong trường
           </h1>
 
           <p className="mt-4 text-lg text-gray-600">
