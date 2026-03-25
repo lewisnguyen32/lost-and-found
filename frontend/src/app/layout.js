@@ -23,12 +23,17 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} bg-gray-50 text-gray-900 antialiased`}
       >
         <header className="sticky top-0 z-50 bg-white/90 shadow-sm backdrop-blur">
-          <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+          <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-1">
             <a
               href="/"
-              className="text-2xl font-bold tracking-tight text-blue-700"
+              className="flex items-center gap-3 text-2xl font-bold tracking-tight text-blue-700"
             >
-              Lost & Found UIT
+              <img
+                src="/uit-logo.png"
+                alt="UIT Logo"
+                className="h-16 w-16 object-contain"
+              />
+              <span>Lost & Found UIT</span>
             </a>
 
             <nav className="flex items-center gap-2 text-sm font-medium">
