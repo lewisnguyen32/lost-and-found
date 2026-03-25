@@ -31,9 +31,9 @@ export default function RootLayout({ children }) {
               <img
                 src="/uit-logo.png"
                 alt="UIT Logo"
-                width={48}
-                height={48}
-                className="block h-12 w-12 shrink-0 object-contain"
+                width={70}
+                height={50}
+                className="block h-14 w-auto object-contain"
               />
               <span>Lost & Found UIT</span>
             </a>
