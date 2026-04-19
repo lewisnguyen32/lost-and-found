@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.json({ message: "Backend is running" });
+  res.json({ message: "Backend is running (RENEW)" });
 });
 
 app.get("/posts", async (req, res) => {
@@ -62,7 +62,7 @@ app.get("/posts", async (req, res) => {
 
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: "Lỗi khi lấy danh sách bài đăng" });
+    res.status(500).json({ error: "Lỗi khi lấy danh sách bài đăng RENEW" });
   }
 });
 
