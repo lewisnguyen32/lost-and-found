@@ -59,6 +59,7 @@ app.get("/posts", async (req, res) => {
     });
 
     res.json(posts);
+
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "Lỗi khi lấy danh sách bài đăng" });
@@ -80,7 +81,7 @@ app.get("/posts/:id", async (req, res) => {
     res.json(post);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: "Lỗi khi lấy chi tiết bài đăng" });
+    res.status(500).json({ error: "Lỗi tìm bài đăng" });
   }
 });
 
